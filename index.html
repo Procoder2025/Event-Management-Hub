@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Events | Home</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated Background Orbs -->
+  <div class="bg-orbs">
+    <div class="orb"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- Navbar -->
+    <nav class="navbar glass">
+      <a href="index.html" class="logo">EventHub</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.php">Admin</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <span class="badge">&#127891; Academic Year 2025-26</span>
+      <h1>College Event<br>Registration Portal</h1>
+      <p>Discover and register for exciting college events. From tech fests to cultural nights — one platform, all events.</p>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+        <a href="register.html" class="btn btn-primary">Register Now &#10148;</a>
+        <a href="#events" class="btn btn-secondary">View Events &#8595;</a>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+      <h2 style="text-align:center;font-size:2rem;margin-bottom:8px;" class="fade-in">Upcoming Events</h2>
+      <p style="text-align:center;color:var(--text-secondary);margin-bottom:16px;" class="fade-in">Choose an event and register before seats fill up!</p>
+
+      <div class="events-grid">
+
+        <!-- Event Card 1 -->
+        <div class="event-card glass fade-in fade-in-delay-1">
+          <div class="icon">&#128187;</div>
+          <h3>TechFest 2026</h3>
+          <p>Coding competitions, hackathons, and tech talks from industry leaders.</p>
+          <div class="meta">
+            <span>&#128197; Apr 15, 2026</span>
+            <span>&#128205; Main Auditorium</span>
+          </div>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event-card glass fade-in fade-in-delay-2">
+          <div class="icon">&#127912;</div>
+          <h3>Cultural Night</h3>
+          <p>Music, dance, drama, and art — showcase your talent on the big stage.</p>
+          <div class="meta">
+            <span>&#128197; Apr 22, 2026</span>
+            <span>&#128205; Open Air Theatre</span>
+          </div>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event-card glass fade-in fade-in-delay-3">
+          <div class="icon">&#9917;</div>
+          <h3>Sports Meet</h3>
+          <p>Inter-department sports tournament — cricket, football, basketball & more.</p>
+          <div class="meta">
+            <span>&#128197; May 5, 2026</span>
+            <span>&#128205; Sports Complex</span>
+          </div>
+        </div>
+
+        <!-- Event Card 4 -->
+        <div class="event-card glass fade-in fade-in-delay-1">
+          <div class="icon">&#128218;</div>
+          <h3>Workshop Series</h3>
+          <p>Hands-on workshops on AI/ML, Web Dev, Cloud Computing, and more.</p>
+          <div class="meta">
+            <span>&#128197; May 12, 2026</span>
+            <span>&#128205; CS Lab Block</span>
+          </div>
+        </div>
+
+        <!-- Event Card 5 -->
+        <div class="event-card glass fade-in fade-in-delay-2">
+          <div class="icon">&#127908;</div>
+          <h3>Guest Lecture</h3>
+          <p>Industry experts sharing insights on career growth and innovation.</p>
+          <div class="meta">
+            <span>&#128197; May 20, 2026</span>
+            <span>&#128205; Seminar Hall</span>
+          </div>
+        </div>
+
+        <!-- Event Card 6 -->
+        <div class="event-card glass fade-in fade-in-delay-3">
+          <div class="icon">&#127941;</div>
+          <h3>Quiz Competition</h3>
+          <p>Test your knowledge across science, tech, current affairs, and pop culture.</p>
+          <div class="meta">
+            <span>&#128197; May 28, 2026</span>
+            <span>&#128205; Room 301</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 EventHub | College Event Management System</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
